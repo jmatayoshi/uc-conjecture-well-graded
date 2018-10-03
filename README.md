@@ -9,7 +9,7 @@ This module has been tested on Python 3.5.
 # Usage
 
 ```sh
-python uc_well_graded.py [-h] [outfile]
+python uc_well_graded.py [-h] [filename]
 ```
 
 As a script, the module will generate the example family ![equation](images/F_image.gif) and check that it is well-graded and ![equation](images/X_image.gif)-closed, for ![equation](images/X_image.gif) = {1, 2, 3}.  It will then display the number of sets in the family, as well as the frequency with which each element of ![equation](images/X_image.gif) appears in ![equation](images/F_image.gif).
