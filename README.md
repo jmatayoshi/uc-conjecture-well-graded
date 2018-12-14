@@ -1,6 +1,6 @@
 # Well-graded families and the union-closed sets conjecture
 
-This repository contains a set of Python functions for manipulating and analyzing well-graded union-closed families of sets.  When used as a script, the module generates an example of a well-graded union-closed family, ![equation](images/F_image.gif), containing a minimal three-set, ![equation](images/X_image.gif), where ![equation](images/F_image.gif) is ![equation](images/X_image.gif)-closed and no element of ![equation](images/X_image.gif) is abundant (i.e., no element of ![equation](images/X_image.gif) appears in at least half of the sets in ![equation](images/F_image.gif)).  
+This repository contains a set of Python functions for manipulating and analyzing well-graded union-closed families of sets.  When used as a script, the module generates an example of a well-graded union-closed family, ![equation](images/F_image.gif), containing a minimal three-set, ![equation](images/X_image.gif), where ![equation](images/F_image.gif) is ![equation](images/X_image.gif)-closed and no element of ![equation](images/X_image.gif) is abundant (i.e., no element of ![equation](images/X_image.gif) appears in at least half of the sets in ![equation](images/F_image.gif)).  This family appears [here](https://jmatayoshi.github.io/union_closed_well_graded_preprint.pdf) as Example 2.1.
 
 # Requirements
 
