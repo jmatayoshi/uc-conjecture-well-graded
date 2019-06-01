@@ -224,7 +224,7 @@ def create_family_from_base(base):
 
 def count_elements(uc_fam, X):
     """
-    Count the occurences of each element in X
+    Count the occurrences of each element in X
     """
     count_dict = {}
     for b in X:
