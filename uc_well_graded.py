@@ -5,13 +5,15 @@
 #
 # Eppstein, D., Falmagne, J.-C., & Uzun, H. (2009). On verifying and engineering 
 #     the well-gradedness of a union-closed family. Journal of Mathematical 
-#     Psychology, 53(1), 34 39.
+#     Psychology, 53(1), 34-39.
 # Falmagne, J.-C., & Doignon, J.-P. (2011). Learning spaces. In
 #     Interdisciplinary applied mathematics. Heidelberg: Springer-Verlag.
 # Koppen, M. (1998). On alternative representations for knowledge spaces.
 #     Mathematical Social Sciences, 36(2), 127-143.
 # Matayoshi, J. (2017).  On the properties of well-graded union-closed families.
 #     Journal of Mathematical Psychology, 80, 15-21.
+# Matayoshi, J. (2020).  Well-graded families and the union-closed sets conjecture.
+#     The Electronic Journal of Combinatorics, 27(1), P1.64.
 
 import copy
 import argparse
@@ -175,7 +177,7 @@ def is_well_graded(sets, base):
 
 def create_base_for_example():
     """
-    Creates base for Example 2.1; this example shows that a three-set X
+    Creates base for Example 9 in Matayoshi, 2020; this example shows that a three-set X
     in a well-graded family, where the family is also X-closed, does not
     necessarily contain an abundant element
     """        
